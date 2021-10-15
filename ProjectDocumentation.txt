@@ -1,0 +1,16 @@
+﻿1) Proje N-Tire mimari paternine göre yazılacaktır.
+
+2) Projede açılacak katmanlar;
+   -Entities
+   -MAP
+   -DAL
+   -BLL
+   -Common(Ortak kullanılacak sınıfların tutulacağı katman olacaktır.)
+   -API(Proje dışarıya açılacağı için ayrı bir katman oluşturulacaktır.)
+   -DTO(API'deki esnekliğin proje bazlı olarak artması için ayrı katmanda oluşrurulacaktır.)
+
+3) Projede değişken isimleri local verible olduğu sürece cascalCase, field olduğu sürece başında _ olacak şekilde camelCase; property,metot ve class isimleri PascalCase standartlarında yazılacaktır. Projede Türkçe karekter kullanılmayacaktır.
+
+4) Katman isimleri Project ile başlayacak ve . sembolünden sonra katman ismi ile tamamlanacaktır.(Project.MAP)
+
+5) Tasarım paternlerinden Generic Repository, Singleton Patern ve Strategy Pattern kullanılacaktır. Mevcut algoritmada bu tasarım paternlerinin dışında başka bir tasarım paterni öngörülmemektedir. Ancak projenin esnekliği sayesinde gerekli görülmesi taktirde geliştirme sürecinde N-Tire mimari paterni ile uyumlu çalışabilecek tasarım paternleri de kullanılabilinecektir.
