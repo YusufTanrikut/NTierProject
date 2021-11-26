@@ -11,6 +11,6 @@ namespace Project.MVCUI.VMClasses
     {
         public Product Product { get; set; }
         public List<Category> Categories { get; set; }
-        public IPagedList<Product> PageProducts { get; set; }
+        public IPagedList<Product> PageProducts { get; set; } //Sayfalama işlemleri(Pagination) için tutulan Property'dir.
     }
 }
